@@ -1,4 +1,22 @@
-.App {
-  text-align: center;
+* {
+  margin-top: 0;
+  padding: 0;
+  box-sizing: border-box;
+
 }
+
+html, 
+body {
+  color: white;
+  background-color: aqua;
+  margin-top: 40px;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 

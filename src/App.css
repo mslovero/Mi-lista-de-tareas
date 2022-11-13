@@ -7,16 +7,39 @@
 
 html, 
 body {
-  color: white;
+  color: rgb(17, 16, 16);
   background-color: aqua;
   margin-top: 40px;
 }
 
-.App {
+.App{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  
+
 }
+
+      
+
+.tareaListaContainer{
+  width: 600px;
+  min-height: 500px;
+  background-color: azure;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
+
+}
+
+h1{
+  color:deeppink;
+  font-size: 40px;
+  text-align: center;
+  margin: 20px 0;
+}
+
 
 

@@ -1,0 +1,30 @@
+.ingTarea {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tareaInput {
+    width: 350px;
+    font-size: 20px;
+    background-color: white;
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid fuchsia;
+    outline: none;
+}
+
+.botonTarea{
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+    border-radius: 0 4px 4px  ;
+    cursor: pointer;
+    outline: none;
+    background-color: cyan;
+    color: fuchsia;
+    text-transform: capitalize;
+
+}
+
